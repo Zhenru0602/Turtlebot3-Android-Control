@@ -1,0 +1,7 @@
+<launch>
+  <param name="model" value="waffle"/>
+
+  <!-- turtlebot3_teleop_key already has its own built in velocity smoother -->
+  <node pkg="android_ros" type="android_turtlebot3" name="android_turtlebot3"  output="screen">
+  </node>
+</launch>
